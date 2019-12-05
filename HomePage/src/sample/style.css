@@ -1,0 +1,28 @@
+
+.homeBTNS :hover {
+   
+    -fx-background-color: linear-gradient(to bottom right, blue, yellow, white);
+}
+
+.image1{
+	
+	-fx-background-image: url("island.jpg");
+	-fx-background-size: cover, auto;
+	
+	-fx-min-height: 132px;
+    -fx-min-width: 128px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center 8px;
+	
+}
+
+.botonLado{
+	-fx-background-color: #FF2D63;
+	-fx-text-fill: black;
+}
+
+.botonLado :hover{
+	-fx-background-color: #FF6990;
+	-fx-text-fill: yellow;
+}
+
